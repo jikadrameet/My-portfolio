@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.box{
+    max-height: 85vh;
+    
+    /* height: 85vh; */
+    width: 29vw;
+    background-color: rgb(208, 187, 187);
+    margin: auto;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.title{
+    text-align: center;
+    font-size: 35px;
+    font-style: oblique;
+}
+.signup{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: rgb(127, 58, 146);
+    font-size: 29px;
+    font-weight: 900;
+    margin-top: 20px;
+    font-variant: unset;
+}
+.hr{
+    width: 6vw;
+    margin-left: 20rch;
+    border: none;
+    margin-top:7px ;
+    height: 2px;
+    color: rgb(127, 58, 146);
+    background-color: rgb(127, 58, 146);
+}
+.form-group{
+    
+    margin: 20px;
+    padding: 17px;
+    margin-left: 40px;
+}
+#username{
+    margin-top: 9px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    font-size: 15px;
+    background-color: aliceblue;
+}
+.Email{
+    /* transition:max-height 0.5s; */
+    /* min-width: 1px; */
+    transition: transform .5s;
+    overflow: hidden;
+    
+    max-height: 60px;
+    transition: 11111ms;
+    font-size: 15px;
+    margin-top: 9px ;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+#Password{
+    font-size: 15px;
+    margin-top: 9px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.ConfirmPassword{
+    font-size: 15px;
+    margin-top: 9px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    padding: 20px;
+    background-color: aliceblue;
+}
+#name{
+    margin-right: 11px;
+}
+.btn{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    color: white;
+    background-color: rgb(149, 99, 163);
+    font-weight: 500;
+    transform: translate(2s);
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(149, 99, 163);
+}
+.google{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border:2px solid rgb(105, 53, 119);
+    color:rgb(149, 99, 163) ;
+    border-style:ridge;
+    font-weight: 500;
+    transform: translate(2s);
+}
+.google:hover {
+    background-color: rgb(149, 99, 163);
+    color: white;
+    transform: translate(2s);
+}
+.or{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+button.disable {
+    background-color: rgb(149, 99, 163);
+    color: white;
+}
+button.enable {
+    background-color: white;
+    color: rgb(149, 99, 163);
+}
